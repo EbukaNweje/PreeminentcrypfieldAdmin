@@ -114,7 +114,7 @@ const UpdateWallet = ({Display}) => {
           </InputData>
 
           <InputData>
-            <label>Interest Wallet Balance: </label>
+            <label>Total Earned: </label>
            {/*  <input/> */}
             <button onClick={(e)=>upddatebtn(props._id,e)} title={"interestWalletbalance"}>update</button>
             <span>${props.interestWalletbalance}</span>
