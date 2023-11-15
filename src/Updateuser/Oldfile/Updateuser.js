@@ -29,7 +29,6 @@ const UpdateWallet = ({Display}) => {
 
        
         const { value: totalDeposit } = await Swal.fire(
-        
           {
           title: e.target.title,
           input: 'text',
